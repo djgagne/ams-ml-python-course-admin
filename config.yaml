@@ -1,0 +1,32 @@
+proxy:
+  secretToken: "fff9010b1ff9d7ab35e67556517df9599af4773734e5de0caa251093b881a7eb"
+singleuser:
+  image:
+    name: djgagne/ams-ml-python-course
+    tag: gpu
+  defaultUrl: "/lab"
+  cpu:
+    limit: 1
+    guarantee: 1
+  memory:
+    limit: 6.5G
+    guarantee: 6G
+  storage:
+    type: none
+  resources:
+    limits:
+      nvidia.com/gpu: 1
+auth:
+  admin:
+    users:
+      - djgagne@ou.edu
+  whitelist:
+    users:
+      - djgagne@ou.edu
+      - ryan.lagerquist@ou.edu
+cull:
+    enabled: False
+hub:
+  extraConfig: |-
+    c.Spawner.cmd = ['jupyter-labhub']
+    c.KubeSpawner.extra_resource_limits = {"nvidia.com/gpu": "1"}
