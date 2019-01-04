@@ -3,13 +3,13 @@ proxy:
 singleuser:
   image:
     name: djgagne/ams-ml-python-course
-    tag: GPU
+    tag: gpu
   defaultUrl: "/lab"
   cpu:
     limit: 1
     guarantee: 1
   memory:
-    limit: 12G
+    limit: 10G
     guarantee: 9G
   storage:
     type: none
@@ -46,7 +46,7 @@ auth:
       - windrunnerxc@gmail.com
       - sarah.griffin@ssec.wisc.edu
       - dhall@nvidia.com
-      - matthew.hirsch@noaa.gov
+      - meh9phx@gmail.com
       - thomas.huang@jpl.nasa.gov
       - paul.iniguez@noaa.gov
       - Jdjacob@okstate.edu
