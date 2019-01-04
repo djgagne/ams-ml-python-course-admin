@@ -45,9 +45,9 @@ RUN mkdir /data && \
 ADD track_data_ncar_ams_3km_nc_small.tar.gz /data
 ADD track_data_ncar_ams_3km_csv_small.tar.gz /data
 
-ADD ams-ml-python-course.tar.gz /home/$NB_USER/
+USER $NB_UID
+
+RUN git clone https://github.com/djgagne/ams-ml-python-course.git
 
 RUN ln -s /data /home/$NB_USER/ams-ml-python-course/data
-
-USER $NB_UID
 
