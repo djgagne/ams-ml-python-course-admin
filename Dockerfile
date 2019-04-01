@@ -21,6 +21,7 @@ RUN conda install -c conda-forge --quiet --yes \
     netcdf4 \
     distributed \
     ipywidgets \
+    cartopy \
     dask && \
     pip install --no-cache-dir tensorflow-gpu && \
     pip install --no-cache-dir keras && \

@@ -3,7 +3,7 @@ proxy:
 singleuser:
   image:
     name: djgagne/ams-ml-python-course
-    tag: gpu
+    tag: gpu_20180104
   defaultUrl: "/lab"
   cpu:
     limit: 1
