@@ -15,7 +15,7 @@
 * Change to docker-stacks/minimal-notebook directory.
 * `>> docker build --rm -t djgagne/minimal-notebook .`
 * Change to directory containing short course docker file.
-* `>> docker build --rm -t djgagne/ams-ml-short-course:gpu .`
+* `>> docker build --rm -t djgagne/ams-ml-python-course:gpu .`
 * Start a Kubernetes cluster on google
 * Log into a Kubernetes node and install CUDA [here](https://cloud.google.com/compute/docs/gpus/add-gpus).
 * Wait until the nvidia drivers have been completely installed. Check status by typing in
