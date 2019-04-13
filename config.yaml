@@ -3,8 +3,8 @@ proxy:
 singleuser:
   image:
     name: djgagne/ams-ml-python-course
-    tag: gpu_20180104
-  defaultUrl: "/lab"
+    tag: latest
+  defaultUrl: "/tree"
   cpu:
     limit: 1
     guarantee: 1
@@ -25,61 +25,31 @@ auth:
       - gherman@rams.colostate.edu
   whitelist:
     users:
-      - lak@google.com
-      - djgagne@ou.edu
-      - ryan.lagerquist@ou.edu
-      - mickelso@ucar.edu
-      - gherman@rams.colostate.edu
-      - caecar1986@qq.com
-      - brainard92@yahoo.com
-      - sue.chen@nrlmry.navy.mil
-      - adityachoukulkar@gmail.com
-      - jlc248@gmail.com
-      - judah.l.cleveland.ctr@mail.mil
-      - austin.coleman@ttu.edu
-      - saicumbulam@earthnetworks.com
-      - dionne.pierre.3@hydro.qc.ca
-      - b.fjukstad@met.no
-      - eric@intellovations.com
-      - feng.gao.met@gmail.com
-      - lgloeckler@albany.edu
-      - windrunnerxc@gmail.com
-      - sarah.griffin@ssec.wisc.edu
-      - dhall@nvidia.com
-      - meh9phx@gmail.com
-      - thomas.huang@jpl.nasa.gov
-      - paul.iniguez@noaa.gov
-      - Jdjacob@okstate.edu
-      - allan.just@mssm.edu
-      - jenny.kafka@rutgers.edu
-      - hkamangir@islander.tamucc.edu
-      - alexander.ken@noaa.gov
-      - mu-chieh.ko@noaa.gov
-      - hugo.landry@canada.ca
-      - alang@albany.edu
-      - jefflapierre6@gmail.com
-      - ryan.leach@noaa.gov
-      - russell.p.manser@ttu.edu
-      - tsm1004@wildcats.unh.edu
-      - redsoxfan824@gmail.com
-      - amanda.mitchell@noaa.gov
-      - kate.d.musgrave@gmail.com
-      - cnguyen13@islander.tamucc.edu
-      - mpashaei@islander.tamucc.edu
-      - rahmes@yahoo.com
-      - tregan@mountwashington.org
-      - timothy.sliwinski@ttu.edu
-      - tallguy257@gmail.com
-      - gstoss@ucar.edu
-      - jim.z.tang@gmail.com
-      - mtewari@us.ibm.com
-      - lidia.trailovic@noaa.gov
-      - ktyle@atmos.albany.edu
-      - jvankerk@uwo.ca
-      - erikw789@gmail.com
-      - wimmers@ssec.wisc.edu
-      - tjwixtrom@gmail.com
-      - alexa.zabaske@tamu.edu
+      - user01
+      - user02
+      - user03
+      - user04
+      - user05
+      - user06
+      - user07
+      - user08
+      - user09
+      - user10
+      - user11
+      - user12
+      - user13
+      - user14
+      - user15
+      - user16
+      - user17
+      - user18
+      - user19
+      - user20
+      - user21
+      - user22
+      - user23
+      - user24
+      - user25
 cull:
     enabled: False
 hub:
